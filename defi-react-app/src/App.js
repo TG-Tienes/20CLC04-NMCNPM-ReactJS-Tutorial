@@ -6,6 +6,8 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Developers from './components/developer/Developer';
 import Subscribe from './components/subscribe/Subscribe';
+import Footer from './components/footer/Footer'
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <About/>
         <Developers/>
         <Subscribe/>
+        <Footer/>
       </div>
   );
 }
