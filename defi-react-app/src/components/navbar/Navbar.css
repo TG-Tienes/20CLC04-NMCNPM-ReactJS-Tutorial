@@ -1,6 +1,7 @@
 .navbar {
-    width: 100%;
     height: 90px;
+    width: 100%;
+
     background-color: #000;
 }
 
@@ -8,9 +9,14 @@
     max-width: 1140px;
     height: 100%;
     margin: auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar li {
+    padding: 1rem;
 }
 
 .navbar .nav {
@@ -19,9 +25,6 @@
     align-items: center;
 }
 
-.navbar li {
-    padding: 1rem;
-}
 
 .hamburger {
     display: none;
@@ -45,10 +48,12 @@
         position: absolute;
         flex-direction: column;
         justify-content: start!important;
+        
         top: 90px;
         left: -100%;
-        width: 100%;
         height: 100vh;
+        width: 100%;
+        
         background-color: #000;
         transition: 0.3s;
     }
